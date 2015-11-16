@@ -33,13 +33,6 @@
     
 }
 
-//- (void)viewWillDisappear:(BOOL)animated {
-//    [super viewWillDisappear:animated];
-//    [self.navigationController.navigationBar setBackgroundImage:[self createImageWithColor:[UIColor colorWithRed:35 / 255.0 green:43 / 255.0 blue:60 / 255.0 alpha:1]] forBarMetrics:UIBarMetricsDefault];
-//    self.navigationController.tabBarController.tabBar.hidden = NO;
-//}
-
-
 //导航栏设置
 - (void)setNavigationRefer {
     self.edgesForExtendedLayout = UIRectEdgeNone;
