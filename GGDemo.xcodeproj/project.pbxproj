@@ -15,7 +15,8 @@
 		AD20081F1BF9EA8600D20A73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD20081D1BF9EA8600D20A73 /* LaunchScreen.storyboard */; };
 		AD20082A1BF9EA8600D20A73 /* GGDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2008291BF9EA8600D20A73 /* GGDemoTests.m */; };
 		AD2008351BF9EA8600D20A73 /* GGDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2008341BF9EA8600D20A73 /* GGDemoUITests.m */; };
-		AD2008431BF9F25F00D20A73 /* hero_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD2008421BF9F25F00D20A73 /* hero_bg.jpg */; settings = {ASSET_TAGS = (); }; };
+		AD2008431BF9F25F00D20A73 /* hero_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD2008421BF9F25F00D20A73 /* hero_bg.jpg */; };
+		AD8666591C0DCA70001249CF /* LOLDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = AD8666581C0DCA6F001249CF /* LOLDemo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AD2008341BF9EA8600D20A73 /* GGDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGDemoUITests.m; sourceTree = "<group>"; };
 		AD2008361BF9EA8600D20A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD2008421BF9F25F00D20A73 /* hero_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hero_bg.jpg; sourceTree = "<group>"; };
+		AD8666581C0DCA6F001249CF /* LOLDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LOLDemo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		AD2008031BF9EA8600D20A73 = {
 			isa = PBXGroup;
 			children = (
+				AD8666581C0DCA6F001249CF /* LOLDemo.gif */,
 				AD20080E1BF9EA8600D20A73 /* GGDemo */,
 				AD2008281BF9EA8600D20A73 /* GGDemoTests */,
 				AD2008331BF9EA8600D20A73 /* GGDemoUITests */,
@@ -253,6 +256,7 @@
 				AD20081F1BF9EA8600D20A73 /* LaunchScreen.storyboard in Resources */,
 				AD20081C1BF9EA8600D20A73 /* Assets.xcassets in Resources */,
 				AD20081A1BF9EA8600D20A73 /* Main.storyboard in Resources */,
+				AD8666591C0DCA70001249CF /* LOLDemo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +427,7 @@
 				INFOPLIST_FILE = GGDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.GGDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GGDemo.me;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -435,7 +439,7 @@
 				INFOPLIST_FILE = GGDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.GGDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GGDemo.me;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -507,6 +511,7 @@
 				AD20083B1BF9EA8600D20A73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD20083C1BF9EA8600D20A73 /* Build configuration list for PBXNativeTarget "GGDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				AD20083E1BF9EA8600D20A73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD20083F1BF9EA8600D20A73 /* Build configuration list for PBXNativeTarget "GGDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				AD2008411BF9EA8600D20A73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
